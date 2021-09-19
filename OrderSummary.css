@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    font-family:'Red Hat Display', sans-serif;
+    background-image: url("images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    min-height: 100vh;
+    position: relative;
+    font-size: 16px;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    max-width: 35vw;
+    background: white;
+    border-radius: 5%;
+    overflow: hidden;
+}
+
+.header {
+    width: 100%;
+}
+
+.info {
+    padding: 3em 3em;
+    text-align: center;
+}
+
+.title {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 1em;
+}
+
+.description {
+    color: hsl(224, 23%, 55%);
+    margin: 0 2.5em 2em 2.5em;
+    font-weight: 500;
+
+}
+
+.plan-list {
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.list-icon{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.plan {
+    padding-left: 1em;
+}
+
+.plan h4 {
+    font-weight: 900;
+    color: hsl(223, 47%, 23%);
+}
+
+.plan p{
+    font-size: 15px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-list a {
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    color: hsl(223, 47%, 23%)s;
+    font-size: 14px;
+}
+
+.plan-list a:hover {
+    color:  hsl(245, 75%, 52%);
+    text-decoration: none;
+}
+
+a.payment {
+    display: block;
+    margin: 2em 0;
+    text-decoration: none;
+    background: hsl(245, 75%, 52%);
+    color: white;
+    border-radius: 15px;
+    padding: 20px 0;
+    font-weight: 700;
+}
+
+a.payment:hover {
+    background-color:  hsl(224, 23%, 55%);
+}
+
+a.cancel {
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a.cancel:hover {
+    color:  hsl(223, 47%, 23%);
+}
+
+
